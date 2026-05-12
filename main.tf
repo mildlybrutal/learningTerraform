@@ -12,8 +12,8 @@ resource "local_file" "hello" {
 }
 
 
-resource "local_file" "Deep" {
-    content = "Hello, I am Deep"
+resource "local_file" "Akash" {
+    content = "Hello, I am Akash"
     filename = "${path.module}/name.txt"
 }
 
